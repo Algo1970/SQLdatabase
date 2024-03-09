@@ -11,8 +11,8 @@ services:
         container_name: sql1
         hostname: sql1
         volumes:
-            - ms-sqlserver-linux-test-data:/var/opt/mssql
+            - SQLdatabase:/var/opt/mssql
             - ./backup:/backup
 volumes:
-    ms-sqlserver-linux-test-data:
+    SQLdatabase:
         driver: local
