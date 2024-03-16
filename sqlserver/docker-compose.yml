@@ -3,7 +3,7 @@ services:
     db:
         build: ./
         environment:
-            SA_PASSWORD: "B!ng_2023"
+            SA_PASSWORD: "sapporor"
             ACCEPT_EULA: "Y"
             MSSQL_AGENT_ENABLED: "true"
         ports:
